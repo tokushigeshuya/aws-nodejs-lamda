@@ -20,3 +20,8 @@ functions:
     handler: second.hello
   hello:
     handler: src/hello.handler
+  costNotifier:
+    handler: src/costNotifier.handler
+    events:
+      # 日本時間で毎朝9時 スケジュールの設定
+      - schedule: cron(0 0 * * ? *)
