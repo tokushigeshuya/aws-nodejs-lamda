@@ -18,3 +18,9 @@
 
 # template
 - $ serverless create --template aws-nodejs-ecma-script
+
+# デプロイコマンド
+npx serverless deploy
+
+# 削除コマンド 
+npx serverless remove
