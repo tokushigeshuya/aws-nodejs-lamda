@@ -19,6 +19,8 @@
   "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
   "license": "MIT",
   "dependencies": {
-    "@slack/webhook": "^6.1.0"
+    "@slack/webhook": "^6.1.0",
+    "aws-sdk": "^2.1634.0",
+    "moment": "^2.29.4"
   }
 }

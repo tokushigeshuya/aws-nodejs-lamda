@@ -24,3 +24,6 @@ npx serverless deploy
 
 # 削除コマンド 
 npx serverless remove
+
+#ローカルでの実行
+npx serverless invoke local -f ファイル
