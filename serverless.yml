@@ -25,3 +25,5 @@ functions:
     events:
       # 日本時間で毎朝9時 スケジュールの設定
       - schedule: cron(0 0 * * ? *)
+    environment:
+      SLACK_WEBHOOK_URL: ${ssm:lamda_slack_webhookURL}
